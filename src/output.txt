@@ -1,0 +1,3 @@
+public static final String LABEL_TAREK_REZA = "label_tarek_reza";
+public static final String LABEL_NURAIN_TASHRIF = "label_nurain_tashrif";
+public static final String LABEL_SABIQUNNAHAR_URMI = "label_sabiqunnahar_urmi";
