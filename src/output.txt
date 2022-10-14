@@ -1,3 +1,26 @@
-public static final String LABEL_TAREK_REZA = "label_tarek_reza";
-public static final String LABEL_NURAIN_TASHRIF = "label_nurain_tashrif";
-public static final String LABEL_SABIQUNNAHAR_URMI = "label_sabiqunnahar_urmi";
+--------------------------------------------------------------------------------------------
+
+public static final String LABEL_DOCTOR_SEARCH = "label_doctor_search";
+public static final String LABEL_READY_TO_USE_TITLE = "label_ready_to_use_title";
+public static final String LABEL_MESSAGE_SECTION_ONE = "label_message_section_one";
+
+
+--------------------------------------------------------------------------------------------
+
+private var labelDoctorSearch:String? = "";
+private var labelReadyToUseTitle:String? = "";
+private var labelMessageSectionOne:String? = "";
+
+
+--------------------------------------------------------------------------------------------
+
+labelDoctorSearch = getSingleLocale(LocalisationConstants.LABEL_DOCTOR_SEARCH);
+labelReadyToUseTitle = getSingleLocale(LocalisationConstants.LABEL_READY_TO_USE_TITLE);
+labelMessageSectionOne = getSingleLocale(LocalisationConstants.LABEL_MESSAGE_SECTION_ONE);
+
+
+--------------------------------------------------------------------------------------------
+
+label_doctor_search,
+label_ready_to_use_title,
+label_message_section_one,
